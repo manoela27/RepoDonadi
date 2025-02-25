@@ -15,3 +15,8 @@ A função pode calcular a soma das taxas de registro para cada marca registrada
 A Donadi pode querer visualizar quais marcas estão registradas no seu domínio e fazer uma lista de verificação das marcas registradas.
 
 A função pode gerar um check-list, onde a empresa pode visualizar as marcas registradas e marcar as que já foram verificadas.
+
+
+# Como rodar o projeto
+
+npx react-native run-android  
