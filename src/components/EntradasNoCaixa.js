@@ -1,15 +1,18 @@
-
 import React, { useState } from 'react';
-import { TextInput, Button, Card, Text, StyleSheet } from 'react-native';
+import { TextInput, Button, Card, Text, StyleSheet, Alert } from 'react-native-paper';
 
 const EntradasNoCaixa = ({ calcularTotal }) => {
   const [novaEntrada, setNovaEntrada] = useState('');
 
   const adicionarEntrada = () => {
-    if (novaEntrada !== '') {
-      calcularTotal(parseFloat(novaEntrada));
-      setNovaEntrada('');
+    const valorEntrada = parseFloat(novaEntrada);
+    if (isNaN(valorEntrada)) {
+      Alert.alert('Erro', 'Por favor, insira um valor numérico válido.');
+      return;
     }
+    calcularTotal(valorEntrada);
+    Alert.alert('Sucesso', 'Entrada adicionada com sucesso!');
+    setNovaEntrada('');
   };
 
   return (

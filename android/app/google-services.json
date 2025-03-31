@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "875455952905",
+    "firebase_url": "https://repositoriodonadi-default-rtdb.firebaseio.com",
+    "project_id": "repositoriodonadi",
+    "storage_bucket": "repositoriodonadi.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875455952905:android:d5354ba82175c8296fa0d8",
+        "android_client_info": {
+          "package_name": "repositorio.Donadi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbpzE7tM4vM8-Nq-JnL-smWHYZkKhMFDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
